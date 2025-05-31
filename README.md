@@ -46,6 +46,17 @@ Compile 32/64 bit programs
    ```
    cl.exe /EHsc /nologo /Fe:DisplayAffinityRemover.exe main.cpp user32.lib psapi.lib advapi32.lib shell32.lib
    ```
+## example
+WindowsProject1.exe is an example of setting display affinity by calling the SetWindowDisplayAffinity function
+
+### WDA_NONE:
+![](example/WDA_NONE.png)
+
+### WDA_MONITOR:
+![](example/WDA_MONITOR.png)
+
+### After DLL injection:
+![](example/inject.png)
 
 ## Usage
 
