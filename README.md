@@ -25,6 +25,11 @@ This project consists of three main components:
 
 ### Compilation
 
+Open the **Developer Command Prompt for VS 2022** 
+or 
+**x64 Native Tools Command Prompt for VS 2022** 
+Compile 32/64 bit programs
+
 1. **DLL Module**:
    ```
    cl /nologo /EHsc /LD /Fe:Affinity32.dll dllmain.cpp user32.lib
