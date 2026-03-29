@@ -1,3 +1,0 @@
-#include "resource.h"
-IDR_AFFINITY32_DLL RCDATA "Affinity32.dll"
-IDR_AFFINITY64_DLL RCDATA "Affinity64.dll"
