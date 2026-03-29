@@ -1,0 +1,5 @@
+#ifndef RESOURCE_H
+#define RESOURCE_H
+#define IDR_AFFINITY32_DLL  101
+#define IDR_AFFINITY64_DLL  102
+#endif
